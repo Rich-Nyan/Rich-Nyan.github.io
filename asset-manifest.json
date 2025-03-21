@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.15935784.css",
-    "main.js": "/static/js/main.fc98f4e8.js",
+    "main.css": "/static/css/main.6d93e7b5.css",
+    "main.js": "/static/js/main.af4f748c.js",
     "static/media/ChinRyan-resume.pdf": "/static/media/ChinRyan-resume.fe8a24905f913ab060d4.pdf",
     "static/media/pfp.jpg": "/static/media/pfp.1fab86a179ebdfc51070.jpg",
     "index.html": "/index.html",
-    "main.15935784.css.map": "/static/css/main.15935784.css.map",
-    "main.fc98f4e8.js.map": "/static/js/main.fc98f4e8.js.map"
+    "main.6d93e7b5.css.map": "/static/css/main.6d93e7b5.css.map",
+    "main.af4f748c.js.map": "/static/js/main.af4f748c.js.map"
   },
   "entrypoints": [
-    "static/css/main.15935784.css",
-    "static/js/main.fc98f4e8.js"
+    "static/css/main.6d93e7b5.css",
+    "static/js/main.af4f748c.js"
   ]
 }
