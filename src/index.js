@@ -22,6 +22,7 @@ const router = createBrowserRouter([
       { path: "resume", element: <Resume /> },
     ],
   },
+  { basename: "/" }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
