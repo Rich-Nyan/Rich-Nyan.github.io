@@ -12,7 +12,7 @@ import Resume from './components/Resume';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route element={<App />}>
+    <Route ErrorElement={<NotFound />} element={<App />}>
       <Route path="/" element={<About />} />
       <Route path="/coursework" element={<Coursework />} />
       <Route path="/projects" element={<Projects />} />
