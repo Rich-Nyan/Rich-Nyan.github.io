@@ -10,7 +10,7 @@ const Resume = () => {
         <Header />
         <div className="resume">
             <div className="resume-title">Resume</div>
-            <iframe src={resume} className="resume-iframe"></iframe>
+            {/* <iframe src={resume} className="resume-iframe"></iframe> */}
         </div>
         </>
     );
