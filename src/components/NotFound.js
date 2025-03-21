@@ -1,7 +1,6 @@
 import React from "react";
 import "./NotFound.css";
 import "../colors.css";
-import Header from "./Header";
 import { useNavigate } from "react-router-dom";
 const NotFound = () => {
     const navigate = useNavigate();

@@ -4,6 +4,7 @@ html, body {
     padding: 0;
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .about {
     height: calc(100dvh - var(--s) - 2 * var(--xxs));
@@ -15,7 +16,6 @@ html, body {
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    scroll-behavior: smooth;
     background-color: var(--background);
     color: var(--text);
 }
@@ -43,6 +43,8 @@ html, body {
     font-size: var(--xs);
     text-align: center;
     width: 45%;
+    min-width: 200px;
+    max-width: 90%;
 }
 .link {
     color: var(--link);
