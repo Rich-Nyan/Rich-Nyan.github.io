@@ -10,17 +10,19 @@ import Projects from './components/Projects';
 import NotFound from './components/NotFound'; 
 import Resume from './components/Resume';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route ErrorElement={<NotFound />} element={<App />}>
-      <Route path="/" element={<About />} />
-      <Route path="/coursework" element={<Coursework />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/resume" element={<Resume />} />
-      <Route path="*" element={<NotFound />} />
-    </Route>
-  )
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <NotFound />,
+    children: [
+      { index: true, element: <About /> },
+      { path: "coursework", element: <Coursework /> },
+      { path: "projects", element: <Projects /> },
+      { path: "resume", element: <Resume /> },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
