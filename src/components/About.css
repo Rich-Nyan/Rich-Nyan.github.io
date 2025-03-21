@@ -1,0 +1,130 @@
+html, body {
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.about {
+    height: calc(100dvh - var(--s) - 2 * var(--xxs));
+    width: 100vw;
+    box-shadow: inset 0 0 var(--xs) var(--border);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.profile-image {
+    width: var(--xxl);
+    height: var(--xxl);
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    padding: var(--xxs);
+    margin: var(--xxs);
+}
+.about-title{
+    padding: var(--xxs);
+    font-size: var(--s);
+    text-align: center;
+    margin: 0;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s);
+    padding: var(--xxs);
+    font-size: var(--xs);
+    text-align: center;
+    width: 45%;
+}
+.link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: var(--link);
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    gap: var(--s);
+    justify-content: center;
+    align-items: center;
+    padding: var(--xxs);
+    margin: var(--xxs);
+}
+
+.linkedin{
+    width: var(--sm);
+    height: var(--sm);
+    fill: var(--text);
+    cursor: pointer;
+}
+.linkedin:hover{
+    fill: var(--link);
+    cursor: pointer;
+}
+.linkedin:visited{
+    fill: var(--text);
+    cursor: pointer;
+}
+.github{
+    width: var(--sm);
+    height: var(--sm);
+    fill: var(--text);
+    cursor: pointer;
+}
+.github:hover{
+    fill: var(--link);
+    cursor: pointer;
+}
+.github:visited{
+    fill: var(--text);
+    cursor: pointer;
+}
+.email{
+    width: var(--sm);
+    height: var(--sm);
+    fill: var(--text);
+    cursor: pointer;
+}
+.email:hover{
+    fill: var(--link);
+    cursor: pointer;
+}
+.email:visited{
+    fill: var(--text);
+    cursor: pointer;
+}
+.resume-icon{
+    width: var(--sm);
+    height: var(--sm);
+    fill: var(--text);
+    cursor: pointer;
+}
+.resume:hover{
+    fill: var(--link);
+    cursor: pointer;
+}
+.resume:visited{
+    fill: var(--text);
+    cursor: pointer;
+}
+.copyright{
+    padding: var(--xxs);
+    text-align: center;
+    font-size: var(--xs);
+}

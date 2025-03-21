@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --background: #2e3440;
+    --text: #eceff4;
+    --link: #c3c3c3;
+
+    --xxxs: clamp(0.1rem, 0.1vw, 0.2rem);
+    --xxs: clamp(0.5rem, 0.5vw, 1rem);
+    --xs: clamp(0.75rem, 1vw, 1.25rem);
+    --xsxs: clamp(0.85rem, 1.35vw, 1.35rem);
+    --xss: clamp(1rem, 1.5vw, 1.5rem);
+    --s: clamp(1.25rem, 2vw, 2rem);
+    --sm: clamp(1.5rem, 3vw, 2.5rem);
+    --m: clamp(2rem, 4vw, 3rem);
+    --ml: clamp(2.5rem, 5vw, 3.5rem);
+    --l: clamp(3rem, 6vw, 4rem);
+    --xl: clamp(4rem, 8vw, 5rem);
+    --xxl: clamp(10rem, 20vw, 12rem);
+
+    --transition-speed: 0.12s;
+}
+
+.dark-mode {
+    --background: #2e3440;
+    --text: #eceff4;
+    --link: #c3c3c3;
+    --border:#ffffff1A;
+}
+
+.light-mode {
+    --background: #eceff4;
+    --text: #2e3440;
+    --link: #211919;
+    --border:#0000001a;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body, .header, .background, .profile-image, .dark-mode-icon, .light-mode-icon {
+    transition: background-color var(--transition-speed) ease-in-out,
+                color var(--transition-speed) ease-in-out,
+                fill var(--transition-speed) ease-in-out;
+}

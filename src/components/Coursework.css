@@ -1,0 +1,21 @@
+html, body {
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.coursework {
+    height: calc(100dvh - var(--s) - 2 * var(--xxs));
+    width: 100vw;
+    box-shadow: inset 0 0 var(--xs) rgba(255, 255, 255, 0.1);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color: var(--background);
+    color: var(--text);
+  }

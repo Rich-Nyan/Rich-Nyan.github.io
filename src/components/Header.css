@@ -1,0 +1,74 @@
+.header {
+    padding: var(--xxs);
+  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; 
+    background-color: var(--background);
+    color: var(--text);
+    height: var(--s);
+    flex-shrink: 0;
+    margin-bottom: none;
+}
+
+.left {
+    font-weight: bold;
+    color: var(--text);
+    margin-left: var(--s);
+}
+
+.name {
+    cursor: pointer;
+    font-size: var(--s);
+}
+
+.coursework-name {
+    cursor: pointer;
+    font-size: var(--xs);
+}
+.coursework-name-active{
+    font-weight: bold;
+}
+.coursework-name-inactive{
+    font-weight: normal;
+}
+
+.right {
+    display: flex;
+    gap: var(--s);
+}
+
+.projects-name {
+    cursor: pointer;
+    font-size: var(--xs);
+}
+.projects-name-active{
+    font-weight: bold;
+}
+.projects-name-inactive{
+    font-weight: normal;
+}
+
+.dark-mode-icon {
+    width: var(--xs);
+    height: var(--xs);
+    fill: var(--text);
+    cursor: pointer;
+    margin-right: var(--s);
+}
+
+.dark-mode-icon:hover {
+    fill: var(--link);
+}
+
+.light-mode-icon {
+    width: var(--xs);
+    height: var(--xs);
+    cursor: pointer;
+    margin-right: var(--s);
+}
+
+.light-mode-icon:hover {
+    fill: var(--link);
+}
