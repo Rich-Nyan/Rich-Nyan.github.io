@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.fe5eb9bf.css",
-    "main.js": "/static/js/main.bae8245e.js",
+    "main.js": "/static/js/main.a516bd47.js",
     "static/media/ChinRyan-resume.pdf": "/static/media/ChinRyan-resume.fe8a24905f913ab060d4.pdf",
     "static/media/pfp.jpg": "/static/media/pfp.1fab86a179ebdfc51070.jpg",
     "index.html": "/index.html",
     "main.fe5eb9bf.css.map": "/static/css/main.fe5eb9bf.css.map",
-    "main.bae8245e.js.map": "/static/js/main.bae8245e.js.map"
+    "main.a516bd47.js.map": "/static/js/main.a516bd47.js.map"
   },
   "entrypoints": [
     "static/css/main.fe5eb9bf.css",
-    "static/js/main.bae8245e.js"
+    "static/js/main.a516bd47.js"
   ]
 }
